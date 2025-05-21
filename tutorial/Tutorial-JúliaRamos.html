@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Mini tutorial com explicações e exemplos demonstrativos de tags HTML estruturais e semânticas.">
+  <meta name="author" content="Júlia Ramos - Instituto Federal do Espírito Santo (Campus Serra).">
+  <meta name="Keywords" content="Tutorial, tags, html, estruturais, semânticas">
+  <title>Mini Tutorial HTML</title>
+</head>
+<body>
+
+  <h1>Mini Tutorial HTML</h1>
+
+  
+  <h2> Tags Estruturais</h2>
+  <!-- faça igual ao trecho abaixo com no mínimo mais 2 tags estruturais ensinadas. Se quiser fazer para mais tags vá em frente! -->
+  <p><strong><code>&lt;b&gt;</code></strong> Apenas deixa o texto em negrito. <br>
+    Exemplo: <code>&lt;p&gt;</code> isto ésta em <code>&lt;b&gt;</code>negrito<code>&lt;/b&gt; &lt;/p&gt;</code> - efeito: isto este em <b>negrito</b> </p>
+
+  <p><strong><code>&lt;i&gt;</code></strong> Apenas deixa o texto em itálico. <br>
+    Exemplo: <code>&lt;p&gt;</code> isto está em <code>&lt;i&gt;</code>itálico<code>&lt;/i&gt; &lt;/p&gt;</code> - efeito: isto está em <i>itálico</i> </p>
+
+  <p><strong><code>&lt;br&gt;</code></strong> Apenas realiza a quebra de linha (estrutura o layout). <br>
+    Exemplo: <code>&lt;p&gt;</code> Primeira linha do texto <code>&lt;br&gt;</code> Segunda linha do texto <code>&lt;/p&gt;</code> - efeito: <br>
+    Primeira linha do texto<br>Segunda linha do texto </p>
+
+  <p><strong><code>&lt;u&gt;</code></strong> Apenas deixa o texto sublinhado. <br>
+    Exemplo: <code>&lt;p&gt;</code> isto está em <code>&lt;u&gt;</code>sublinhado<code>&lt;/u&gt; &lt;/p&gt;</code> - efeito: isto está em <u>sublinhado</u> </p>
+
+  <p><strong><code>&lt;hr&gt;</code></strong> Apenas insere uma linha horizontal. <br>
+    Exemplo: <code>&lt;p&gt;</code> Texto antes da linha <code>&lt;/p&gt;</code> <code>&lt;u&gt;</code> <code>&lt;p&gt;</code> Texto depois da linha <code>&lt;/p&gt;</code> - efeito: <br>
+    Texto antes da linha<br>
+    <hr>
+    Texto depois da linha
+  </p>
+
+  <p><strong><code>&lt;span&gt;</code></strong> Usado apenas para aplicar estilo inline, sem significado semântico. <br>
+    Exemplo: <code>&lt;p&gt;</code> Texto normal com <code>&lt;span style="color:brown;"&gt;</code>texto marrom<code>&lt;/span&gt; &lt;/p&gt;</code> - efeito: <br>
+    Texto normal com <span style="color:brown">texto marrom</span>
+  </p>
+
+
+  <h2> Tags Semânticas</h2>
+    <!-- faça igual abaixo para no mínimo 3 tags estruturais ensinadas. Se quiser fazer para mais tags vá em frente! -->
+    <p><strong><code>&lt;strong&gt;</code></strong> Dá ênfase forte (semântica de importante e lida por leitores de tela). <br>
+      Exemplo: <code>&lt;p&gt;</code> Este é um texto com <code>&lt;strong&gt;</code> enfâse importante <code>&lt;/strong&gt; &lt;/p&gt;</code> - efeito: <br>
+      Este é um texto com <strong> ênfase importante </strong>
+    </p>
+
+    <p><strong><code>&lt;em&gt;</code></strong> Dá ênfase leve (semântica de entonação). <br>
+      Exemplo: <code>&lt;p&gt;</code> Este é um texto com <code>&lt;em&gt;</code> enfâse leve <code>&lt;/em&gt; &lt;/p&gt;</code> - efeito: <br>
+      Este é um texto com <em> ênfase leve </em>
+    </p>
+
+    <p><strong><code>&lt;blockquote&gt;</code></strong> Apenas indica uma citação longa. <br>
+      Exemplo: <code>&lt;p&gt;</code> Uma citação longa:<code>&lt;/p&gt;</code>
+      <code>&lt;blockquote&gt;</code>"Jesus é o Caminho, a Verdade e a Vida. Sua luz imperecível brilha sobre Os milênios terrestres, como o Verbo ao princípio, penetrando [...]." <code>&lt;/blockquote&gt;</code>- efeito: <br>
+      Uma citação longa:
+      <blockquote>"Jesus é o Caminho, a Verdade e a Vida. Sua luz imperecível brilha sobre Os milênios terrestres, como o Verbo ao princípio, penetrando [...]."</blockquote>
+    </p>
+
+    <p><strong><code>&lt;q&gt;</code></strong> Apenas indica uma citação curta. <br>
+      Exemplo: <code>&lt;p&gt;</code> Uma citação curta: <code>&lt;q&gt;</code> A verdade não exige: Transforma<code>&lt;/q&gt;</code>. <code>&lt;/p&gt;</code>- efeito: <br>
+      Uma citação curta: <q>A verdade não exige: Transforma</q>.
+    </p>
+
+    <p><strong><code>&lt;abbr&gt;</code></strong> Define uma abreviação. <br>
+      Exemplo: <code>&lt;p&gt;</code> O estado <code>&lt;abbr title="Espírito Santo"&gt;</code> ES <code>&lt;/abbr&gt;</code> fica na região Sudeste do Brasil.<code>&lt;/p&gt;</code> - efeito: <br>
+      O estado <abbr title="Espírito Santo"> ES </abbr> fica na região Sudeste do Brasil.
+    </p>
+
+    <p><strong><code>&lt;cite&gt;</code></strong> Define a fonte de uma citação (ex: nome de um livro, filme). <br>
+      Exemplo: <code>&lt;blockquote&gt;</code> "Jesus é o Caminho, a Verdade e a Vida. Sua luz imperecível brilha sobre Os milênios terrestres, como o Verbo ao princípio, penetrando [...]." <code>&lt;cite&gt;</code> Caminho,Verdade e Vida <code>&lt;/cite&gt;</code>. <code>&lt;/blockquote&gt;</code> - efeito: <br>
+      <blockquote> "Jesus é o Caminho, a Verdade e a Vida. Sua luz imperecível brilha sobre Os milênios terrestres, como o Verbo ao princípio, penetrando [...]." <cite> Caminho,Verdade e Vida </cite>. </blockquote>
+    </p>
+
+    <p><strong><code>&lt;dfn&gt;</code></strong> Marca a definição de um termo. <br>
+      Exemplo: <code>&lt;p&gt;</code> Um <code>&lt;dfn&gt;</code> ecossistema <code>&lt;/dfn&gt;</code>é o conjunto de organismos vivos e o ambiente onde vivem.<code>&lt;/p&gt;</code>- efeito: <br>
+      Um <dfn>ecossistema</dfn> é o conjunto de organismos vivos e o ambiente onde vivem.
+    </p>
+
+    <p><strong><code>&lt;address&gt;</code></strong> Indica informações de contato (autor, organização). <br>
+      Exemplo: <code>&lt;p&gt;</code> Contato por email: <code>&lt;/dfn&gt;</code>
+      <code>&lt;address&gt;</code> juliarld.ifes@gmail.com <code>&lt;/address&gt;</code> - efeito: <br>
+      Contato por email: <address>juliarld.ifes@gmail.com</address>
+    </p>
+
+    <p><strong><code>&lt;del&gt;</code></strong> Texto removido (ex: edição de conteúdo). <br>
+      Exemplo: <code>&lt;p&gt;</code>A reunião de estudos ocorrerá no dia <code>&lt;del&gt;</code>6 de junho<code>&lt;/del&gt;</code> 12 de junho.<code>&lt;/p&gt;</code> - efeito: <br>
+      A reunião de estudos ocorrerá no dia <del>6 de junho</del> 12 de junho.
+    </p>
+
+    <p><strong><code>&lt;ins&gt;</code></strong> Texto inserido (semântico para alterações em texto). <br>
+      Exemplo: <code>&lt;p&gt;</code>Nova data do congreso que ocorrerá no Centro de Convenções de Vitória: <code>&lt;ins&gt;</code>20 de julho<code>&lt;/ins&gt;</code>.<code>&lt;/p&gt;</code> - efeito: <br>
+      Nova data do congreso que ocorrerá no Centro de Convenções de Vitória: <ins>20 de julho</ins>.
+    </p>
+
+    <p><strong><code>&lt;sup&gt;</code></strong> Indica conteúdo elevado (expoente ou nota). <br>
+      Exemplo: 100<code>&lt;sup&gt;</code>2<code>&lt;/sup&gt;</code> - efeito: 100<sup>2</sup>
+    </p>
+
+    <p><strong><code>&lt;sub&gt;</code></strong> Indica conteúdo inferior (como em fórmulas químicas ou matemáticas). <br>
+      Exemplo: CO<code>&lt;sub&gt;</code>2<code>&lt;/sub&gt;</code> - efeito: CO<sub>2</sub>
+    </p>
+  
+  <!-- desafio: se fizer para todas as tags estruturais e semanticas ensinadas: 1 ponto extra!-->
+  </body>
+</html>
